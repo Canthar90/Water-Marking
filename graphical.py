@@ -26,7 +26,7 @@ class Screen(Tk):
 
         self.quit_button = Button(text="Quit", command=self.destroy, width=18)
         self.quit_button.grid(column=2, row=3)
-        # self.Button(frm, text="Quit", command=self.destroy).grid(column=1, row=0)
+
         self.mainloop()
 
 
